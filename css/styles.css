@@ -1,0 +1,142 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  }
+h1,h3,h2,h4,h5,h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;/*left right bottom only for the title portion*/
+}
+#features{
+  /* or z-index to hide half picture*/
+  z-index: 1;/* or z-index to hide half picture to come top of title page(this is optional)*/
+  position: relative;;/* or z-index to hide half picture*/
+}
+#testimonials{
+  background-color: #ef8172;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%
+}
+#pricing{
+  padding: 100px;
+}
+.section-heading{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.price-text{
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 600;
+}
+#footer{
+  margin: 100px ;
+}
+.coloured-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+  background-color: white;
+}
+.big-title{
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+/*feature*/
+.feature-box{
+  padding: 5%;
+}
+.feature-text{
+    font-size: 1.5rem;
+}
+.container-fluid{
+  padding: 7% 15%;/*left right bottom*/
+}
+/*navigation*/
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-bold", sans-serif;
+}
+/*title*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;/* or z-index to hide half picture*/
+  right: 30%
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:  #ff4c68;
+}
+.btn{
+  font-family: "Montserrat-Bold", sans-serif;
+}
+/*testimonial*/
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  line-height:1.5;
+  font-size: 3rem;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+/*pricing*/
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-heading{
+  line-height:1.5;
+  font-size: 3rem;
+}
+/*footer*/
+.footer-text{
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 1rem;
+}
+.footer-icon{
+  margin: 5px 10px;
+}
+@media (max-width: 1028px)/* making its responsive by changing it at the only certain time of px*/
+{
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
